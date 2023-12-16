@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="todo.css" />
+    </head>
+    <body>
+        <div class="list-container">
+            <h1></h1>
+            <h2>My Todo list</h2>
+            <h3>Jessi Pavia Martinez</h3>
+            <ul id="list"></ul>
+            <form>
+                <label for="new-todo">New Item: </label>
+                <input type="text" id="new-todo" name="new-todo" />
+                <button onclick="addTodo()" type="button">Create</button>
+                <!--IMPORTANT, type button  must be place before the onclick property-->
+            </form>
+        </div>
+        <footer id="datetime"></footer>
+        <script src="todo.js">
+        </script>
+    </body>
+</html>
